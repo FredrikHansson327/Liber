@@ -439,7 +439,7 @@ public class MainF extends JFrame {
 		loginPanel.add(button_1);
 		
 		JRadioButton rdbtnNewRadioButton = new JRadioButton("New radio button");
-		rdbtnNewRadioButton.setBounds(33, 211, 109, 23);
+		rdbtnNewRadioButton.setBounds(33, 310, 109, 23);
 		loginPanel.add(rdbtnNewRadioButton);
 		
 		cartTable = new JList();
