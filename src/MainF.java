@@ -230,6 +230,15 @@ public class MainF extends JFrame {
 		
 		String[] hej = {"hej"};
 		JList searchList = new JList(hej);
+		searchList.setModel(new AbstractListModel() {
+			String[] values = new String[] {"hejg"};
+			public int getSize() {
+				return values.length;
+			}
+			public Object getElementAt(int index) {
+				return values[index];
+			}
+		});
 		searchList.setBounds(0, 0, 875, 390);
 		searchTablePanel.add(searchList);
 		
