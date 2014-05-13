@@ -95,7 +95,7 @@ public class MainF extends JFrame {
 
 
 	/**
-	 * Launch the applicationxxx2fran git.
+	 * Launch the applicationmathias.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
