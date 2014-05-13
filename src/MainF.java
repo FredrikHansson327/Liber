@@ -95,7 +95,7 @@ public class MainF extends JFrame {
 
 
 	/**
-	 * Launch the application.
+	 * Launch the applicationxxx.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -171,7 +171,7 @@ public class MainF extends JFrame {
 		
 		JPanel searchTab = new JPanel();
 		searchTab.setLocation(0, 25);
-		tabPane.addTab("Sök", null, searchTab, null);
+		tabPane.addTab("Sï¿½k", null, searchTab, null);
 		searchTab.setLayout(null);
 		
 		JLabel lblSkord = new JLabel("S\u00F6kord:");
@@ -211,7 +211,7 @@ public class MainF extends JFrame {
 				boolean booleanChckbxDigitala = chckbxDigitala.isSelected();
 				boolean booleanChckbxLjudfiler = chckbxLjudfiler.isSelected();
 				
-				System.out.println("String från textfält: " + serchString 
+				System.out.println("String frï¿½n textfï¿½lt: " + serchString 
 									+". Analog:" + booleanChckbxAnaloga
 									+". Digital:"+ booleanChckbxDigitala
 									+". Ljudfil:" + booleanChckbxLjudfiler);
@@ -284,14 +284,14 @@ public class MainF extends JFrame {
 		tabPane.setForegroundAt(2, new Color(0, 0, 0));
 		newUserTab.setLayout(null);
 		
-		JSeparator nyAnvändareSeparatorHorisont = new JSeparator();
-		nyAnvändareSeparatorHorisont.setBounds(0, 50, 875, 2);
-		newUserTab.add(nyAnvändareSeparatorHorisont);
+		JSeparator nyAnvï¿½ndareSeparatorHorisont = new JSeparator();
+		nyAnvï¿½ndareSeparatorHorisont.setBounds(0, 50, 875, 2);
+		newUserTab.add(nyAnvï¿½ndareSeparatorHorisont);
 		
-		JSeparator nyAnvändareSeparatorVertikal = new JSeparator();
-		nyAnvändareSeparatorVertikal.setOrientation(SwingConstants.VERTICAL);
-		nyAnvändareSeparatorVertikal.setBounds(163, 52, 6, 393);
-		newUserTab.add(nyAnvändareSeparatorVertikal);
+		JSeparator nyAnvï¿½ndareSeparatorVertikal = new JSeparator();
+		nyAnvï¿½ndareSeparatorVertikal.setOrientation(SwingConstants.VERTICAL);
+		nyAnvï¿½ndareSeparatorVertikal.setBounds(163, 52, 6, 393);
+		newUserTab.add(nyAnvï¿½ndareSeparatorVertikal);
 		
 		JButton btnSkapa = new JButton("Skapa");
 		btnSkapa.setBounds(174, 336, 200, 23);
