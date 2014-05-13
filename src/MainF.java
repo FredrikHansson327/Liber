@@ -95,7 +95,7 @@ public class MainF extends JFrame {
 
 
 	/**
-	 * Launch the applicationxxx.
+	 * Launch the applicationxxx2.
 	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
@@ -284,14 +284,14 @@ public class MainF extends JFrame {
 		tabPane.setForegroundAt(2, new Color(0, 0, 0));
 		newUserTab.setLayout(null);
 		
-		JSeparator nyAnv�ndareSeparatorHorisont = new JSeparator();
-		nyAnv�ndareSeparatorHorisont.setBounds(0, 50, 875, 2);
-		newUserTab.add(nyAnv�ndareSeparatorHorisont);
+		JSeparator nyAnvandareSeparatorHorisont = new JSeparator();
+		nyAnvandareSeparatorHorisont.setBounds(0, 50, 875, 2);
+		newUserTab.add(nyAnvandareSeparatorHorisont);
 		
-		JSeparator nyAnv�ndareSeparatorVertikal = new JSeparator();
-		nyAnv�ndareSeparatorVertikal.setOrientation(SwingConstants.VERTICAL);
-		nyAnv�ndareSeparatorVertikal.setBounds(163, 52, 6, 393);
-		newUserTab.add(nyAnv�ndareSeparatorVertikal);
+		JSeparator nyAnvandareSeparatorVertikal = new JSeparator();
+		nyAnvandareSeparatorVertikal.setOrientation(SwingConstants.VERTICAL);
+		nyAnvandareSeparatorVertikal.setBounds(163, 52, 6, 393);
+		newUserTab.add(nyAnvandareSeparatorVertikal);
 		
 		JButton btnSkapa = new JButton("Skapa");
 		btnSkapa.setBounds(174, 336, 200, 23);
