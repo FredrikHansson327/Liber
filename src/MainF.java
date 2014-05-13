@@ -445,7 +445,7 @@ public class MainF extends JFrame {
 		
 
 		
-		JLabel versionNr = new JLabel("v.0.2");
+		JLabel versionNr = new JLabel("v.0.32");
 		versionNr.setFont(new Font("Tahoma", Font.PLAIN, 11));
 		versionNr.setForeground(Color.GRAY);
 		versionNr.setBounds(1022, 484, 46, 14);
